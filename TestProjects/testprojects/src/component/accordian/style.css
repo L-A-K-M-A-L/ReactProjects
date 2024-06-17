@@ -1,0 +1,45 @@
+body{
+    text-align: center;
+}
+
+.wrapper{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.wrapper button{
+    padding: 10px 20px;
+    background-color: hsl(0, 14%, 77%);
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.accordian{
+    width: 500px;
+}
+
+.item{
+    background: hsl(0, 45%, 72%);
+    margin-bottom: 10px;
+    padding: 10px 20px;
+}
+
+.title{
+    color: aliceblue;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.content{
+    color: rgb(88, 67, 67);
+    height: auto;
+}
